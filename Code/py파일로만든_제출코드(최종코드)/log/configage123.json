@@ -1,0 +1,19 @@
+{
+    "kfold_use": 0,
+    "test_method": "age123",
+    "resize": 224,
+    "seed": 777,
+    "average": "macro",
+    "train_transform": "train_age_gender",
+    "class_num": 3,
+    "epochs": 3,
+    "batch_size": 64,
+    "model_num": 2,
+    "optimizer": "Adam",
+    "lr": 0.0001,
+    "loss": "focal_loss",
+    "log_interval": 40,
+    "model_name": "age",
+    "save_dir": "/opt/ml/Pstage/log/",
+    "age_num": 58
+}

@@ -1,0 +1,19 @@
+{
+    "kfold_use": 0,
+    "test_method": "mask_wrong",
+    "resize": 224,
+    "seed": 777,
+    "average": "macro",
+    "train_transform": "train_tfms_mask",
+    "class_num": 3,
+    "epochs": 10,
+    "batch_size": 64,
+    "model_num": 1,
+    "optimizer": "Adam",
+    "lr": 0.0003,
+    "loss": "crossentropy_loss",
+    "log_interval": 40,
+    "model_name": "mask",
+    "save_dir": "/opt/ml/Pstage/log/",
+    "age_num": 58
+}
