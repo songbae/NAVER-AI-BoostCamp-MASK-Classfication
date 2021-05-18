@@ -13,20 +13,17 @@ Private Score: 0.7726 3등
     3.  이미지 크기: (384,512) 
     4.  Evaluation : F1_score (Macro) 
 
-<img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e414b55b-9553-4561-ad4a-90c0bc975ac7/Untitled.png" width ="400" height="200"> 
 
    ### EDA (Exploratory Data Analysis,탐색적 데이터 분석)
 
    - **성별 분포**
 
      
-        <img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0203363-1039-428c-a677-330d4598ca91/Untitled.png" width ="400" height="200"> 
 
         > 여성 1600 남성 1100명 정도로 분포하고 있으며 많은 차이는 아니기 때문에 data imbalance 라고 보기엔 어렵다
 
    - **Age 분포**
 
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e24d9fe-6f50-435d-a286-8d34ee59b217/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e24d9fe-6f50-435d-a286-8d34ee59b217/Untitled.png)
 
         > 0~30 과 30~60 의 비율은 비슷하지만 60대의 비율이 압도적으로 적은 것을 볼 수 있다. 즉 data imbalance가 심하다.
 
