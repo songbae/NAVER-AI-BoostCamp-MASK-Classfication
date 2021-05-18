@@ -13,7 +13,7 @@ Private Score: 0.7726 3등
     3.  이미지 크기: (384,512) 
     4.  Evaluation : F1_score (Macro) 
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e414b55b-9553-4561-ad4a-90c0bc975ac7/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e414b55b-9553-4561-ad4a-90c0bc975ac7/Untitled.png)
+<img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e414b55b-9553-4561-ad4a-90c0bc975ac7/Untitled.png" width ="400" height="200"> 
 
     ### EDA (Exploratory Data Analysis,탐색적 데이터 분석)
 
