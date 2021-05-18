@@ -15,16 +15,16 @@ Private Score: 0.7726 3등
 
 <img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e414b55b-9553-4561-ad4a-90c0bc975ac7/Untitled.png" width ="400" height="200"> 
 
-    ### EDA (Exploratory Data Analysis,탐색적 데이터 분석)
+   ### EDA (Exploratory Data Analysis,탐색적 데이터 분석)
 
-    - **성별 분포**
+   - **성별 분포**
 
      
         <img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0203363-1039-428c-a677-330d4598ca91/Untitled.png" width ="400" height="200"> 
 
         > 여성 1600 남성 1100명 정도로 분포하고 있으며 많은 차이는 아니기 때문에 data imbalance 라고 보기엔 어렵다
 
-    - **Age 분포**
+   - **Age 분포**
 
         ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e24d9fe-6f50-435d-a286-8d34ee59b217/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e24d9fe-6f50-435d-a286-8d34ee59b217/Untitled.png)
 
@@ -36,23 +36,23 @@ Private Score: 0.7726 3등
             - 턱스크, 코스크 ,눈스크 등 마스크를 잘 못 착용한 다양한 이미지 존재
             - 마스크를 아예 착용하지 않은 클린한 이미지
 
-    ### [학습]
+   ### [학습]
 
-    ---
+   ---
 
-    1. Efficient_Net B3 
-    2. Learning Rate:
-        1. Age Label : 1e-4 
-        2. Mask Label: 3e-4 
-        3. Gender Label: 1e-4
-    3. Optimizer : Adam 
-    4. Loss :
-        1. Crossentropy_loss: Mask, Gender 
-        2. Focal_loss: age
-    5. Epoch:
-        1. Age: 4 Epoch 
-        2. Mask , Gender : 10 Epoch 
-    6. Batch_size: 64
+   1. Efficient_Net B3 
+   2. Learning Rate:
+       1. Age Label : 1e-4 
+       2. Mask Label: 3e-4 
+       3. Gender Label: 1e-4
+   3. Optimizer : Adam 
+   4. Loss :
+       1. Crossentropy_loss: Mask, Gender 
+       2. Focal_loss: age
+   5. Epoch:
+       1. Age: 4 Epoch 
+       2. Mask , Gender : 10 Epoch 
+   6. Batch_size: 64
 
 ### **[전처리]**
 
