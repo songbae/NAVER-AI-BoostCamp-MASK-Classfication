@@ -19,7 +19,8 @@ Private Score: 0.7726 3등
 
     - **성별 분포**
 
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0203363-1039-428c-a677-330d4598ca91/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0203363-1039-428c-a677-330d4598ca91/Untitled.png)
+     
+        <img src = "https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0203363-1039-428c-a677-330d4598ca91/Untitled.png" width ="400" height="200"> 
 
         > 여성 1600 남성 1100명 정도로 분포하고 있으며 많은 차이는 아니기 때문에 data imbalance 라고 보기엔 어렵다
 
