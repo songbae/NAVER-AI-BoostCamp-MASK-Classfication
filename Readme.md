@@ -1,7 +1,7 @@
 ### 🦸‍♂️ MASK ,Age, Gender Classification
 
 ##### 본프로젝트는 🚀NAVER AI BoostCamp에서 개최한 competition입니다
-
+#####📆 2021.03.29~2021.04.09
 ---
 ### 🥇 최종결과
 
