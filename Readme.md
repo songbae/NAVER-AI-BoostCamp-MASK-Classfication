@@ -1,7 +1,7 @@
 ### 🦸‍♂️ MASK ,Age, Gender Classification
 
 ##### 본프로젝트는 🚀NAVER AI BoostCamp에서 개최한 competition입니다
-#####📆 2021.03.29~2021.04.09
+##### 📆 2021.03.29~2021.04.09
 ---
 ### 🥇 최종결과
 
@@ -47,27 +47,7 @@ C:.
 └─__pycache__
         loss.cpython-37.pyc
 
-```
-### 💡 MASK | AGE | Gender Classification
-
-- **Competition Data 개요**
-    1.  전체 사람 명 수 : 4500
-    2.  한 사람당 사진의 개수 : 7( 마스크 착용 6, 이상하게 착용(턱스크,코스크) 1장, 미착용 1장 ) 
-    3.  이미지 크기: (384,512) 
-    4.  Evaluation : F1_score (Macro) 
-   ### EDA (Exploratory Data Analysis,탐색적 데이터 분석)
-
-   - **성별 분포**
-    여성 1600 남성 1100명 정도로 분포하고 있으며 많은 차이는 아니기 때문에 data imbalance 라고 보기엔 어렵다
-
-   - **Age 분포**
-        > 0~30 과 30~60 의 비율은 비슷하지만 60대의 비율이 압도적으로 적은 것을 볼 수 있다. 즉 data imbalance가 심하다.
-        - **Mask 분포**
-            - [5: 1 :1]로 완전히 같은 비율을 가지고 있다.
-            - 마스크마다 색이 다른 것도 존재 하며 , 마스크 대신 손수건을 착용한 이미지도 존재
-            - 턱스크, 코스크 ,눈스크 등 마스크를 잘 못 착용한 다양한 이미지 존재
-            - 마스크를 아예 착용하지 않은 클린한 이미지
-            
+```         
 ### 📜 최종 모델 및 파라미터
    ---
    1. Efficient_Net B3 
@@ -117,9 +97,7 @@ C:.
 4.  Mask, Age, Gender 별로 다른 Learning Rate, Loss,  augmentation 적용 
 
 ### [Environment]
-
 ---
-
 - Window 10
 - VsCode
 - GPU P-40
